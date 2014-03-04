@@ -11,7 +11,8 @@
 
 @implementation XYZViewController
 
-- (void)viewDidLoad
+- (void)viewWillLayoutSubviews
+// - (void)viewDidLoad // I don't know why this function doesn't work.
 {
     [super viewWillLayoutSubviews];
 

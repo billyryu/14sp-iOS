@@ -66,30 +66,51 @@
         //5
         CGPathRelease(trianglePath);
         
+        [self runAction:
+         [SKAction repeatAction:
+          [SKAction sequence:
+           @[[SKAction performSelector:@selector(spawnSand)
+                              onTarget:self],
+             [SKAction waitForDuration:0.02]
+             ]]
+                          count:100]
+         ];
+        
     }
     return self;
 }
 
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    /* Called when a touch begins */
+- (void)spawnSand
+{
+    //create a small ball body
+    SKSpriteNode *sand =
+    [SKSpriteNode spriteNodeWithImageNamed:@"sand"];
+    sand.position = CGPointMake(
+                                (float)(arc4random()%(int)self.size.width),
+                                self.size.height - sand.size.height);
+    sand.physicsBody =
+    [SKPhysicsBody bodyWithCircleOfRadius:sand.size.width/2];
+    sand.name = @"sand";
+    [self addChild:sand];
     
-    for (UITouch *touch in touches) {
-        CGPoint location = [touch locationInNode:self];
-        
-        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-        
-        sprite.position = location;
-        
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-        
-        [sprite runAction:[SKAction repeatActionForever:action]];
-        
-        [self addChild:sprite];
-    }
+    sand.physicsBody.restitution = 1.0;
+    sand.physicsBody.density = 20.0;
 }
 
--(void)update:(CFTimeInterval)currentTime {
-    /* Called before each frame is rendered */
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    for (SKSpriteNode *node in self.children) {
+        if ([node.name isEqualToString:@"sand"])
+            [node.physicsBody applyImpulse:
+             CGVectorMake(0, arc4random()%50)];
+    }
+    
+    SKAction *shake = [SKAction moveByX:0 y:10 duration:0.05];
+    [self runAction:
+     [SKAction repeatAction:
+      [SKAction sequence:@[shake, [shake reversedAction]]]
+                      count:5]];
+    
 }
 
 @end
