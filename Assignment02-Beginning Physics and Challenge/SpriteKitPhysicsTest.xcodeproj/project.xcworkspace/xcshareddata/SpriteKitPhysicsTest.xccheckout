@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>68DD2421-DFBB-4FFD-865E-C8C8FCA6604F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpriteKitPhysicsTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE3F2945-B7B5-4FDA-A504-6102A8686FE0</key>
+		<string>https://github.com/billyryu/14sp-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Assignment02-Beginning Physics and Challenge/SpriteKitPhysicsTest/SpriteKitPhysicsTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE3F2945-B7B5-4FDA-A504-6102A8686FE0</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/billyryu/14sp-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE3F2945-B7B5-4FDA-A504-6102A8686FE0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE3F2945-B7B5-4FDA-A504-6102A8686FE0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>14sp-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
