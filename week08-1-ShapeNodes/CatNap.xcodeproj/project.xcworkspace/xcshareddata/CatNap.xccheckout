@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>59E838C9-23C8-4FCB-9F09-15F5BBBDE65F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CatNap</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>08D2B53F-B959-459A-9EB9-905C1BE5F64D</key>
+		<string>https://github.com/billyryu/Assignment1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>08-homework/week08-1-ShapeNodes/CatNap.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>08D2B53F-B959-459A-9EB9-905C1BE5F64D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/billyryu/Assignment1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>08D2B53F-B959-459A-9EB9-905C1BE5F64D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>08D2B53F-B959-459A-9EB9-905C1BE5F64D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>14sp-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
